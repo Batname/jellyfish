@@ -7,10 +7,10 @@ var skinWeightBuffer = {};
 var bufferOK = {};
 
 function initBuffers(){
-  loadObject('jellyfish0','meshes/jellyfish0.json');
-  loadObject('jellyfish1','meshes/jellyfish1.json');
-  loadObject('jellyfish2','meshes/jellyfish2.json');
-  loadObject('jellyfish3','meshes/jellyfish3.json');
+  loadObject('jellyfish0','wp-content/themes/playerx/playerx/assets/jellyfish/meshes/jellyfish0.json');
+  loadObject('jellyfish1','wp-content/themes/playerx/playerx/assets/jellyfish/meshes/jellyfish1.json');
+  loadObject('jellyfish2','wp-content/themes/playerx/playerx/assets/jellyfish/meshes/jellyfish2.json');
+  loadObject('jellyfish3','wp-content/themes/playerx/playerx/assets/jellyfish/meshes/jellyfish3.json');
 }
 
 function loadObject(name, file){
